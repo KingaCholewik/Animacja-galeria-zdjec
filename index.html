@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria zdjęć</title>
+    <script
+      src="https://kit.fontawesome.com/9b550a72cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider__images-container">
+        <div class="slider__image-container slider__image-container--first">
+          <img class="first" src="./public/assets/IMG_1.jpg" alt="" draggable="false">
+        </div>
+        <div class="slider__image-container slider__image-container--second">
+          <img class="second" src="./public/assets/IMG_2.jpg" alt="" draggable="false">
+        </div>
+        <div class="slider__divider">
+          <div class="slider__handle">
+            <span class="fa fa-light fa-angle-left"></span>
+            <span class="fa fa-light fa-angle-right"></span>
+          </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
